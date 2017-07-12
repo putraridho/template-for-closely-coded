@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="./css/master.css">
     <link rel="stylesheet" href="./css/flickity.css">
     <link rel="stylesheet" href="./css/font-awesome.css">
-    <title>Template Codely Coded</title>
+    <title>Template Closely Coded</title>
   </head>
   <body>
     <header>
