@@ -12,7 +12,7 @@
     <header>
       <div class="main-row">
         <div class="wrapper flex-row">
-          <div class="logo"><a href="#"><img src="./images/RHT Academy logo.jpeg" alt=""></a></div>
+          <div class="logo"><a href="#"><img src="./images/RHT-Academy-logo.jpeg" alt=""></a></div>
           <div class="top-nav-container">
             <div class="top-right-nav">
               <ul>
@@ -40,9 +40,9 @@
               <li class='about-us'>
                 <a href="#" class='nav'>ABOUT US<i class="fa fa-caret-down" aria-hidden="true"></i></a>
                 <ul class="hidden">
-                  <li><a href="#">Our People</a></li>
-                  <li><a href="#">Our Values</a></li>
-                  <li><a href="#">Our location</a></li>
+                  <li><a href="#">OUR PEOPLE</a></li>
+                  <li><a href="#">OUR VALUES</a></li>
+                  <li><a href="#">OUR LOCATION</a></li>
                   <li><a href="#">RHT GROUP OF COMPANIES</a></li>
                 </ul>
               </li>
@@ -264,7 +264,7 @@
     <footer>
       <div class="wrapper">
         <div class="flex-row">
-          <div class="foot-nav foot-logo"><a href="#"><img src="/images/rht academy logo.jpeg" alt=""></a></div>
+          <div class="foot-nav foot-logo"><a href="#"><img src="/images/RHT-Academy-logo.jpeg" alt=""></a></div>
           <div class="foot-nav foot-nav-1">
             <ul>
               <li><a href="#">ABOUT US</a></li>
