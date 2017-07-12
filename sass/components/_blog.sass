@@ -1,0 +1,311 @@
+#blog
+  padding-top: 125px
+  padding-bottom: 125px
+
+  .flex-container
+    display: flex
+
+  .col
+    .title-row
+      position: relative
+      display: flex
+      align-items: center
+      margin-bottom: 40px
+
+      &::after
+        content: '-----'
+        position: absolute
+        bottom: -20px
+        left: 10px
+        font:
+          weight: 400
+          size: 30px
+        color: #567
+        letter-spacing: 2px
+
+    .icon
+      height: 32px
+      width: 32px
+      border-radius: 50px
+      position: relative
+      color: #fff
+      margin: 8px
+
+      i
+        position: absolute
+        top: 50%
+        left: 50%
+        transform: translate(-50%, -50%)
+
+    h1
+      margin: 0
+      padding: 0
+      color: #567
+      font:
+        weight: 400
+        size: 30px
+      letter-spacing: 2px
+      margin: 8px
+
+  #all-events
+    margin: 0 10px
+    width: 280px
+    height: 700px
+
+    .icon
+      background: #cb4
+
+    .event
+      position: relative
+      margin: 0 10px
+      width: 280px
+      height: 120px
+      display: flex
+      align-items: center
+
+      &:nth-last-child(2)
+        border-bottom: 1px solid #ddd
+
+      .date-circle
+        margin-right: 10px
+        background: #cb4
+        height: 80px
+        width: 80px
+        border-radius: 80px
+        display: flex
+        justify-content: center
+        align-items: center
+        text-align: center
+        transition: .2s all linear
+
+      .date
+        color: #fff
+        font-size: 12px
+        line-height: 15px
+
+        span
+          font-size: 24px
+
+      .event-name
+        margin-left: 10px
+        width: 180px
+        height: 120px
+        display: flex
+        align-items: center
+        border-bottom: 1px solid #ddd
+
+        a
+          font:
+            weight: 600
+            size: 12px
+          letter-spacing: 1px
+          color: #afafaf
+          transition: .2s all linear
+
+      &:hover
+        .date-circle
+          background: #c13
+
+        .event-name
+          a
+            color: #c13
+
+    .pagination
+      margin: 0 10px
+      padding-top: 30px
+      display: flex
+      width: 280px
+      justify-content: space-between
+
+      a
+        color: #aaa
+        font-size: 18px
+
+        &:hover
+          color: #c13
+
+      ul
+        li
+          display: inline-block
+
+          a
+            letter-spacing: 2px
+
+          &:first-child
+            a
+              color: #567
+              cursor: default
+
+          &:not(:first-child)::before
+            content: ' - '
+            color: #aaa
+            font:
+              size: 18px
+            letter-spacing: 2px
+            cursor: default
+
+  #upcoming-events
+    margin: 0 10px
+    padding: 0 40px
+    width: 580px
+    height: 700px
+
+    .icon
+      background: #64b
+
+    .up-event
+      margin-bottom: 60px
+
+      .flex
+        display: flex
+
+      .date-row
+        width: 500px
+        align-items: flex-end
+        justify-content: space-between
+        padding-bottom: 20px
+        border-bottom: 1px solid #64b
+
+      .date
+        h1
+          margin: 0
+
+          font:
+            size: 24px
+            weight: 700
+          color: #64b
+
+      a
+        color: #aaa
+        transition: .2s all linear
+
+        &:hover
+          color: #c13
+
+    .headline
+      margin: 30px 0
+      width: 500px
+      align-items: center
+
+      .head-pict
+        position: relative
+        width: 100px
+        height: 100px
+        background-color: #ccc
+        margin-right: 30px
+        border-radius: 50px
+        overflow: hidden
+
+        img
+          position: absolute
+          top: 50%
+          left: 50%
+          transform: translate(-50%, -50%)
+          height: 100%
+          border-radius: 50px
+
+      .head-title
+        margin-right: 40px
+        width: 330px
+
+        h2
+          margin: 0
+
+          font:
+            size: 14px
+            weight: 600
+          line-height: 28px
+          color: #567
+
+    .caption
+      height: 70px
+      width: 500px
+      overflow-y: hidden
+      line-height: 18px
+
+      p
+        margin: 0
+
+        font:
+          size: 12px
+          weight: 600
+        color: #567
+
+  #tweeter
+    margin: 0 10px
+    width: 280px
+    height: 700px
+
+    .twitter-acc-name
+      display: flex
+      align-items: center
+      padding-bottom: 30px
+
+    .tw-icon
+      i
+        color: #2cc
+        font-size: 35px
+        margin-right: 20px
+
+    .header-text
+      h1
+        font-size: 24px
+        margin: 0
+
+      a
+        color: #2cc
+        font:
+          size: 12px
+          weight: 600
+
+    .tweet
+      display: flex
+      width: 280px
+      padding-top: 29px
+      padding-bottom: 30px
+      border-top: 1px solid #ddd
+      font-size: 12px
+
+      .prof-pict
+        position: relative
+        background: #fff
+        border: 1px solid #aaa
+          radius: 40px
+        height: 80px
+        width: 80px
+        margin-right: 10px
+        overflow: hidden
+
+        img
+          position: absolute
+          width: 100%
+          top: 50%
+          left: 50%
+          transform: translate(-50%, -50%)
+          border-radius: 40px
+
+      .tweet-text
+        margin-left: 10px
+
+      span
+        a
+          color: #2cc
+          margin-right: 5px
+
+      p
+        width: 180px
+        font-weight: 600
+        line-height: 20px
+
+        a
+          color: #2cc
+
+      .tweet-actions
+        a
+          color: #aaa
+          margin-right: 20px
+          font-size: 18px
+          transition: .2s all linear
+
+          &:hover
+            color: #2cc

@@ -1,0 +1,156 @@
+header
+  padding-bottom: 30px
+
+  .flex-row
+    display: flex
+    justify-content: space-between
+
+  .logo
+    position: relative
+    top: 10px
+    margin-left: 10px
+    img
+      width: 190px
+
+  .top-right-nav
+    background: #2cc
+    height: 40px
+    border-radius: 0 0 18px 18px
+    margin-right: 10px
+
+    ul
+      padding: 4px 20px
+
+      li
+        padding: 0 20px
+        line-height: 32px
+        display: inline-block
+
+        a
+          font:
+            size: 12px
+            weight: 700
+          color: white
+
+        i
+          margin-left: 10px
+          font-size: 14px
+
+  .socials
+    float: right
+    margin: 12px 10px 12px 0
+
+    ul
+      height: 42px
+
+      li
+        display: inline-block
+        height: 32px
+        width: 32px
+        border-radius: 4px
+        background: #aaa
+        text-align: center
+        transition: .2s all linear
+
+        i
+          line-height: 32px
+          font-size: 14px
+          color: #e9ebed
+
+        &:hover
+          background: #c13
+
+  .second-row
+    height: 48px
+    border:
+      top: 1px solid #ddd
+      bottom: 1px solid #ddd
+
+  .navbar
+    margin-left: 10px
+
+    .navigation
+      li
+        padding: 0 20px
+        line-height: 48px
+        display: inline-block
+
+        .nav
+          font:
+            size: 14px
+            weight: 700
+          color: #aaa
+          transition: .2s all linear
+
+        i
+          font-size: 14px
+          margin-left: 10px
+
+        &:hover
+          .nav
+            color: #c13
+
+    .hidden
+      position: absolute
+      z-index: 999
+      height: 0
+      transform: translateX(-20px)
+      overflow: hidden
+      transition: .2s all linear
+
+      li
+        display: block
+        background: #e9ebed
+        opacity: 0
+        transition: .2s all linear
+
+        a
+          font:
+            size: 14px
+            weight: 700
+          color: #aaa
+          transition: .2s all linear
+
+        &:hover
+          a
+            color: #c13
+
+    .about-us:hover
+      .hidden
+        height: auto
+
+        li
+          opacity: 1
+
+  .searchbar
+    display: flex
+
+    .magnify
+      background: #f0f1f2
+      width: 48px
+      border:
+        top: 0
+        bottom: 0
+        left: 1px solid #ddd
+        right: 1px solid #ddd
+      text-align: center
+
+      i
+        line-height: 48px
+        color: #aaa
+
+    .training-calendar-box
+      margin-right: 10px
+      background: #c13
+      height: 100%
+      width: 244px
+      border-right: 1px solid #ddd
+      color: #fff
+      line-height: 48px
+      text-align: center
+      font:
+        size: 14px
+        weight: 700
+
+      i
+        margin-right: 10px
