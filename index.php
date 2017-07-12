@@ -12,7 +12,7 @@
     <header>
       <div class="main-row">
         <div class="wrapper flex-row">
-          <div class="logo"><a href="#"><img src="./images/RHT-Academy-logo.jpeg" alt=""></a></div>
+          <div class="logo"><a href="#"><img src="images/RHT-Academy-logo.jpeg" alt=""></a></div>
           <div class="top-nav-container">
             <div class="top-right-nav">
               <ul>
@@ -264,7 +264,7 @@
     <footer>
       <div class="wrapper">
         <div class="flex-row">
-          <div class="foot-nav foot-logo"><a href="#"><img src="/images/RHT-Academy-logo.jpeg" alt=""></a></div>
+          <div class="foot-nav foot-logo"><a href="#"><img src="images/RHT-Academy-logo.jpeg" alt=""></a></div>
           <div class="foot-nav foot-nav-1">
             <ul>
               <li><a href="#">ABOUT US</a></li>
